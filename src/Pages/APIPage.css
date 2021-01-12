@@ -1,0 +1,20 @@
+.api-page {
+  section li {
+    line-height: 27px;
+  }
+
+  li > a:first-child > code, li > code:first-child {
+    font-weight: bold;
+  }
+
+  pre {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  section li {
+    & > a:first-child {
+      padding-right: 0.5ex;
+    }
+  }
+}
