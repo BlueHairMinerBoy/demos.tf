@@ -7,14 +7,13 @@ export interface Config {
 }
 
 export const config: Config = {
-	title: "b",
+	title: "demos.tf",
 	gameTypes: {
 		'4v4': '4v4',
 		'6v6': '6v6',
 		'hl': 'Highlander'
-		'12v12': 'Public match'
 	},
-	showDonate: false,
-	showUpload: false,
+	showDonate: true,
+	showUpload: true,
 	api: `https://api.${window.location.host}/`
 };
